@@ -1,0 +1,31 @@
+.details-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem;
+    margin-top: 6rem;
+    background-color: #d2d2d2;
+    padding: 1rem;
+}
+
+.details--body-areas-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.details--body-areas-label {
+    display: inline-block;
+    margin-right: 1rem;
+    font-weight: 600;
+}
+
+.details--body-area {
+    padding: 1rem;
+    background-color: #666;
+    color: #fff;
+}
